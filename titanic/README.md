@@ -1,5 +1,5 @@
 # Titanic survival prediction
-This project is an introduction to a simple classification problem using the titanic dataset from Kaggle. The goal of this model is to predict if a passenger would have survived the titanic disaster
+This project is an introduction to a simple binary classification problem using the titanic dataset from Kaggle. The goal of this model is to predict if a passenger would have survived the titanic disaster
 
 ## Technologies used
 - Python 3.10
