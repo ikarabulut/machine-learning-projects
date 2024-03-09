@@ -1,6 +1,11 @@
 # Credit Risk Model
 Binary classification problem that used tree-based models and ensemble learning. The dataset is from a [Data mining course](https://www.cs.upc.edu/~belanche/Docencia/mineria/mineria.html) through Polytechnic University of Catalonia with the original csv located at [CreditScoring github project](https://github.com/gastonstat/CreditScoring/).
 
+## Models
+- **Decision-tree classifier with `scikit-learn`**
+- **Random Forest classifier with `scikit-learn`**
+- **Gradient boosting with `XGBoost`**
+
 ### Data
 The initial dataset has the following schema:
   - status: whether the customer managed to pay back the loan (1) or not (2)
@@ -25,6 +30,9 @@ The initial dataset has the following schema:
   - Numpy
   - Seaborn
   - Matplotlib
+  - XGBoost
 
 ### Techniques used
 **One-Hot Encoding**: Instead of using Pandas `get_dummies()` method to create the one-hot columns in the dataset. I instead used `scikit-learn's` `DictVectorizer` method
+
+**Evaluation analysis using matplot lib**: to visualize how different parameters affect training over time I used matplot lib to visualize and help select which parameter was best suited
